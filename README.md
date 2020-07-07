@@ -1,3 +1,3 @@
 # website
-website by flask with mongo database
-home page along with registration,login and logout page
+Website by python-flask with mongo database.....
+Home page along with registration,login and logout page
