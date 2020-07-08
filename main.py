@@ -56,7 +56,9 @@ def login():
 
 @app.route("/logout")
 def logout():
-    return render_template("home.html")
+    session.clear
+    flash("You are now logged out","success")
+    return render_template("login.html")
 
 app.secret_key="12ddededd"
 app.run(debug=True)
